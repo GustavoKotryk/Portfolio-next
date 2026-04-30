@@ -15,7 +15,7 @@ export default function Inicio(){
                 priority
                 />
             </div>
-            <p className="text-lg">Fotógrafo profissional em registrar momentos.</p>
+            <p className="text-lg">Fotógrafo profissional em registrar cachorrinhos.</p>
         </div>
     );
 }
