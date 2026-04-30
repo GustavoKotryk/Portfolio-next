@@ -2,19 +2,16 @@ import Image from "next/image";
 
 export default function Sobre() {
     return(
-        <div>
-            <h1 className="text-3x1 font-bold mb-4">Sobre mim</h1>
-            <p className="text-lg mb-2">
-                Sou fotógrafo há 25 anos
+        <div className="max-w-2xl mx-auto space-y-8">
+            <h1 className="text-2xl font-bold mb-4">Sobre mim</h1>
+            <div className="flex flex-col md:flex-row gap-8 itens-center">
+                <Image src="/pansudu.jfif" alt="pansudu" width={200} height={200} />
+            <p className="text-lg">
+                Sou fotógrafo há 25 anos. Meu estilo é fotografia. Gosto de tirar fotos
             </p>
-            <p className="text-lg mb-2">
-                Meu estilo é fotografia. Gosto de tirar fotos
-            </p>
-            <Image src="/pansudu.jfif" alt="pansudu"
-            width={200}
-            height={200}/>
+            </div>
 
-            <h2 className="text-2x1 font-semibold mt-6 mb-2">Equipamento</h2>
+            <h2 className="text-2xl font-semibold mt-6 mb-2">Equipamento</h2>
             <ul className="list-disc list-inside">
                 <li>Câmera: De foto</li>
                 <li>Lente: 50mm f</li>
